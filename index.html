@@ -21,13 +21,21 @@
                     <input type="email" name="Email" id="Email"  placeholder="Enter your email address" required>
 
                     <label for="Phone">Phone number: </label>
-                    <input type="tel" name="Phone" id="Phone"  placeholder="Enter your phone number" required>
+                    <input type="phone" name="Phone" id="Phone"  placeholder="Enter your phone number" required>
                     
                     <label for="Make">Make: </label>
-                    <input type="text" name="Make" id="Make"  placeholder="Make" required>
+                    <select id="Maker">
+                        <option value="Honda">Honda</option>
+                        <option value="Toyota">Toyota</option>
+                        <option value="Ford">Ford</option>
+                    </select>
                     
                     <label for="Model">Model: </label>
-                    <input type="text" name="Model" id="Model"  placeholder="Model" required>
+                    <select id="Model">
+                        <option value="Camry">Camry</option>
+                        <option value="Accord">Accord</option>
+                        <option value="F150">F150</option>
+                    </select>
                     
                     <label for="Year">Year: </label>
                     <input type="number" name="Year" id="Year"  placeholder="Year" min="1916" max="2025" required>
@@ -42,7 +50,7 @@
                     <input type="number" name="Quantity" id="Quantity"  placeholder="Enter the quantity of the spare part you need" min="1"  required>
                     
                     <label for="Comment">Comment: </label>
-                    <textarea name="Comment" rows="5" cols="30" id="Comment">Enter your comment</textarea>
+                    <textarea name="Comment" rows="5" cols="30" id="Comment" placeholder="Enter your comment"></textarea>
 
                     <input type="submit" value="Submit" id="Submit">
                     
